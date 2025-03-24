@@ -4,20 +4,50 @@
 
 :root{
     --primaria:"Ledger", serif;
+    --cor1: #8A3BBF;
 }
 
 *{
     padding: 0;
     margin: 0;
 }
- 
-.apresentacao{
+body, html{
+    background-image: linear-gradient(to right, #000000, #321659);
+    width: 100vw;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 69px;
+    
+
+}
+
+a{
+    color: var(--cor1);
     font-family: var(--primaria);
+    font-size: 1.3rem;
+    margin: 12px 31px;
+    padding: 31px 0 0;
+    text-decoration: none;
+}
+a:hover{
+    color: #6E37A6;
+    transition: 0.1s;
+    font-size: 1.2rem;
+}
+hr{
+    border-bottom: solid #FFFFFF 0;
+    margin-top: 15px;
+    
+}
+.apresentacao{
     text-align: center;
-    padding: 92px;
     width: 487px;
     height: 267px;
-    margin: 0 450px 0 10px;
+    margin: 0 350px 0 90px;
+    color: var(--cor1);
 }
 main{
     display: flex;
@@ -25,22 +55,25 @@ main{
     gap: 50pxpx;
 }
 
-nav{
-    display: flex;
-    justify-content: flex-end;
-    gap: 90px;
-    
 
-}
-
-a{
-    margin: 12px 31px;
-    padding: 31px 0 0;
-}
-h1{
+h1{font-family: var(--primaria);
+    font-weight: 400;
+    font-style: normal;
     padding: 60px;
     margin: 40px;
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2.1rem;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.apresentacao-img{
+    margin-right: 5px;
 }
 img{
     padding: 85px 70px 0 0;
+    
 }
