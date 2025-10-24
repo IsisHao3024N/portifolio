@@ -12,7 +12,7 @@
     margin: 0;
 }
 body, html{
-    color: linear-gradient(to right, #484646, #000000);
+    background: linear-gradient(to right, #484646, #000000);
     width: 100vw;
     height: 100vh;
 }
